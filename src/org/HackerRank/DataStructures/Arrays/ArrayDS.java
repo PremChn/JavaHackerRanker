@@ -12,6 +12,7 @@ public class ArrayDS {
 		for(int i = 0; i < Arr.length; i++){
 			Arr[i] = in.nextInt();			
 		}
+		
 		int[] SolutionArray = reverseArray(Arr);
 		for(int k = 0; k < SolutionArray.length; k++)
 			System.out.print(SolutionArray[k] + " ");
